@@ -525,7 +525,14 @@ body{
         padding-left: 50px;
         padding-right: 50px;
         text-decoration: none;
-         
+        &:hover{
+            background-color: #fa5552cb;
+            border:2px solid var(--c-p);
+            color: var(--c-yesil);
+            cursor: pointer;
+            transition: 800ms;
+        } 
+        
     } 
     
     
