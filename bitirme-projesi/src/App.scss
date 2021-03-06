@@ -436,7 +436,21 @@ body{
         
     }
     
+    .footer-s{
+        background-color: #fa555205;
+        
+        figure{
+            a{ 
+                &:not(:last-of-type){
+                    margin-right: 30px;
+                }
+            }
+           
+        }
+    }
+    
   
+       
     
        
 
