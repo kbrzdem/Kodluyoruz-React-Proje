@@ -59,7 +59,7 @@ function App() {
           </Switch>
           
       </main>
-      <Qestion />
+      
       <Footer hlinks= {links} /> 
     </Router>
   </>  
