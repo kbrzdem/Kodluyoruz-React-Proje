@@ -532,7 +532,9 @@ body{
             cursor: pointer;
             transition: 800ms;
         } 
-        
+        &:focus{
+            outline: 0;
+        } 
     } 
     
     
