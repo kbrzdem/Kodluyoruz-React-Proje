@@ -131,6 +131,44 @@ body{
         }    
     }
     
+    .section2{
     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 150px; 
+        &__title{
+            color: var(--c-nokta);
+            font-family:var(--f-baslik);
+            font-style: normal;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 124%;
+            
+        }
+        &__title2{
+            color:var(--c-yesil);
+            font-family:var(--f-baslik);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 119%;
+            text-transform: capitalize;
+            margin: 0;  
+        }
+        &__desc{
+            color:var(--c-p) ;
+            font-family: var(--f-span);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 215%;
+            text-transform: capitalize;  
+        }
+    
+    }
+  
+        
        
 
