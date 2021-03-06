@@ -334,7 +334,109 @@ body{
             width: 90%;
        }
     }
+    .section5{
+        
+        .row:nth-of-type(odd){
+            
+            flex-direction: row-reverse;
+            .section5__title2{
+                margin-left: 0;
+                margin-right: 150px;
+            }
+            .section5__desc{
+                margin-right: 100px;
+                margin-left: 0;
+            } 
+        }
+        .row:nth-of-type(even){
+            
+            .section5__number{
+                margin-bottom: 0px;
+                margin-right: 0;
+                margin-left: 150px;
+                margin-left: 100px;
+                margin-right: 0;
+            }
+            
+            .section5__title2{
+                margin-right: 0;
+                margin-left: 100px;
+            }
+            .section5__desc{
+                margin-left: 100px;
+                margin-right: 0;
+            } 
+        }
     
+        &__number{
+            
+            background-color: #fa555249 ;
+            //border: 5px solid #fa555249;
+            border-radius: 100px ;
+            color: var(--c-genel);
+            font-size: 28px;
+            font-weight: bold;
+            display: inline-block;
+            padding: 8px;
+        }
+       
+    
+        &__title{
+            
+            color: var(--c-nokta);
+            font-family:var(--f-baslik);
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 124%;
+            text-align: center;
+            margin: 0;
+        }
+        &__title2{
+            
+            color: var(--c-yesil);
+            font-family:var(--f-span);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 147%;
+            text-transform: capitalize;
+            margin-bottom: 0;
+           
+    
+            &--text{
+                text-align: center;
+                margin: 0px;
+            }
+        }
+    
+        &__desc{
+            
+            color: var(--c-p);
+            font-family: var(--f-span);
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 221%;
+            text-transform: capitalize; 
+            
+            
+            &--text{
+                margin-left: auto;
+                margin: auto;
+                margin-bottom: 30px;
+                max-width: 750px;
+                text-align: center;
+            }
+    
+        }
+    
+        
+        
+        
+    }
+    
+  
     
        
 
