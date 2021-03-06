@@ -23,7 +23,21 @@ const Prevention = ({ preventionP }) => {
     return (
 
         <section className="section5">
-            
+            <div className="container">
+                <h1 className="section5__title " >Covid-19</h1>
+                <h2 className="section5__title2 section5__title2--text" >What Should We Do</h2>
+                <p className="section5__desc section5__desc--text" >
+                    Corona viruses are a type of virus. 
+                    There are many different kinds, and some cause disease. A newly identified type has caused
+                </p>
+                <div className="row-wrap" >
+
+                    {resultHTML}
+
+                </div>
+
+
+            </div>
         </section>
 
 
