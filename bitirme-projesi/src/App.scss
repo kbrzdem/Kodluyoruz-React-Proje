@@ -16,3 +16,83 @@ body{
 }
    
     
+.header{
+    background-color: #fa555205;
+    box-shadow: 0px 1px 0.1px #fa555233;  
+    
+  }  
+    .nav-wrap{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .nav {
+        //padding-top: 25px;
+        
+        
+        a{
+            color: var(--c-yesil);
+            font-family:var(--f-span) ;
+            font-style: normal;
+            font-weight:400 ;
+            font-size: 18px;
+            line-height: 22px;
+            margin-right: 40px;
+            text-decoration: none;
+            position: relative;
+            &::after{
+                content:"";
+                background:var(--c-nokta);
+                border-radius: 100px;
+                bottom: 0;
+                position: absolute;
+                width: 0px;
+                height: 0px;
+                left: 50%;
+                transform: translateX(-50%);
+                top: 25px;
+            }       
+            &:hover{
+                color: var(--c-genel);
+                transition: 400ms;
+                position: relative;
+                &::after{
+                    content:"";
+                    background:var(--c-nokta);
+                    border-radius: 100px;
+                    bottom: 0;
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    left: 50%;
+                    transition: 300ms;
+                    transform: translateX(-50%);
+                    top: 25px;
+                }        
+                
+            } 
+        }
+
+        .active{
+            color: var(--c-genel);
+                pointer-events: none;
+                position: relative;
+                &::after{
+                    content:"";
+                    background:var(--c-nokta);
+                    border-radius: 100px;
+                    bottom: 0;
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 25px;
+                }      
+        }
+    }
+    
+    
+       
+
