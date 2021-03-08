@@ -1,2 +1,2 @@
 Kodluyoruz React Projesi
-- Covid-19 -
+- Covid-19 
