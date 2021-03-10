@@ -338,38 +338,8 @@ body{
     }
     .section5{
         
-        .row:nth-of-type(odd){
-            
-            flex-direction: row-reverse;
-            .section5__title2{
-                margin-left: 0;
-                margin-right: 150px;
-            }
-            .section5__desc{
-                margin-right: 100px;
-                margin-left: 0;
-            } 
-        }
-        .row:nth-of-type(even){
-            
-            .section5__number{
-                margin-bottom: 0px;
-                margin-right: 0;
-                margin-left: 150px;
-                margin-left: 100px;
-                margin-right: 0;
-            }
-            
-            .section5__title2{
-                margin-right: 0;
-                margin-left: 100px;
-            }
-            .section5__desc{
-                margin-left: 100px;
-                margin-right: 0;
-            } 
-        }
-    
+        
+       
         &__number{
             
             background-color: #fa555249 ;
@@ -648,6 +618,42 @@ body{
               }
             }
         }
+        .section5{
+            .row:nth-of-type(odd){
+            
+                flex-direction: row-reverse;
+                .section5__title2{
+                    margin-left: 0;
+                    margin-right: 150px;
+                }
+                .section5__desc{
+                    margin-right: 100px;
+                    margin-left: 0;
+                } 
+            }
+            .row:nth-of-type(even){
+                
+                .section5__number{
+                    margin-bottom: 0px;
+                    margin-right: 0;
+                    margin-left: 150px;
+                    margin-left: 100px;
+                    margin-right: 0;
+                }
+                
+                .section5__title2{
+                    margin-right: 0;
+                    margin-left: 100px;
+                }
+                .section5__desc{
+                    margin-left: 100px;
+                    margin-right: 0;
+                } 
+            }
+        
+
+        }
+        
             .section6{
                 
                 .button{
@@ -655,7 +661,7 @@ body{
                        
                        padding-left: 45px ;
                        padding-right: 45px;
-                        left: 730px;
+                        left: 715px;
                         top: 196px;
                     }
                     
@@ -667,7 +673,9 @@ body{
                     width: 600px; 
                 }
             }
-        
+       
+            
+
     }
        
 
